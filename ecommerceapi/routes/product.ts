@@ -1,4 +1,4 @@
-import express, { Response, Request, response } from 'express';
+import express, { Response, Request } from 'express';
 import Product from '../models/Products';
 
 import { verifyTokenAndAdmin, verifyTokenAndAuthorization } from "./verifyToken";
