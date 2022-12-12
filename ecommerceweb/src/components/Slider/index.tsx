@@ -13,7 +13,7 @@ import {
   Title,
   Wrapper
 } from './styles';
-import { slideItems } from './data';
+import { slideItems } from '../../Mock/data';
 
 interface DirectionProps {
   direction: "right" | "left";
