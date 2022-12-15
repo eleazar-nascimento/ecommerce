@@ -3,13 +3,24 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Pay from './components/Pay';
 import Success from './components/Success';
 import Home from './pages/Home';
+import Product from './pages/Product';
+import ProductList from './pages/ProductList';
 
 function App() {
   const router = createBrowserRouter([
     {
-
       path: "/",
       element: <Home />
+    },
+    {
+
+      path: "/product-list",
+      element: <ProductList />
+    },
+    {
+
+      path: "/product",
+      element: <Product />
     },
     {
       path: "/pay",
