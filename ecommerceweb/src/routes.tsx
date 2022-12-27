@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import Pay from './components/Pay';
 import Success from './components/Success';
+import Cart from "./pages/Cart";
 import Home from './pages/Home';
 import Login from "./pages/Login";
 import NotFound from './pages/NotFound';
@@ -23,6 +24,11 @@ export const router = createBrowserRouter([
 
         path: "/product",
         element: <Product />
+    },
+    {
+
+        path: "/cart",
+        element: <Cart />
     },
     {
 
